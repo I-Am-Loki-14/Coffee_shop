@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+:root {
+  --main-color: #980404;
+  --bg-color: #710101;
+  --secondary-color: #ff9000;
+  --font-family: "Ubuntu", sans-serif;
+  --second-font: "Playwrite NO", cursive;
+  --font-weight: bold;
+  --white-color: #ffffff;
+  --black-color: #000000;
+}
+/* nav section  */
+.nav_container {
+  width: 100%;
+  padding: 0.5rem 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid transparent;
+  box-shadow: 1px 1px 5px var(--main-color);
+  background-color: var(--bg-color);
+  position: fixed;
+  top: 0;
+}
+.nav_container h1 {
+  font-family: var(--font-family);
+  color: var(--white-color);
+}
+.navlinks a {
+  display: inline-block;
+  font-family: var(--font-family);
+  border-radius: 0.2rem;
+  padding: 0.5rem 1rem;
+  margin: 0 0.2rem;
+  color: var(--white-color);
+}
+.navlinks a:hover {
+  background-color: var(--bg-color);
+  color: var(--secondary-color);
+}
+/* home section  */
+.home {
+  width: 100%;
+  padding: 1.2rem 1rem;
+  /* height: 100vh; */
+  background-color: var(--bg-color);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+}
+.home div {
+  flex: 1 1 250px;
+  padding: 2.5rem;
+}
+.coffeeinfo h2 {
+  font-family: var(--second-font);
+  color: var(--secondary-color);
+  font-weight: var(--font-weight);
+}
+.coffeeinfo h1 {
+  font-family: var(--font-family);
+  color: var(--white-color);
+  font-weight: var(--font-weight);
+  margin: 1rem 0;
+}
+.coffeeinfo p {
+  font-family: var(--font-family);
+  color: var(--white-color);
+  margin: 1.5rem 0;
+}
+.call_action {
+  display: flex;
+  justify-content: start;
+  gap: 0.5rem;
+  /* background-color: aqua; */
+  margin: 1.5rem 0;
+}
+.call_action a {
+  text-align: center;
+  width: 130px;
+  padding: 0.7em 1.2rem;
+  border-radius: 2rem;
+  font-family: var(--font-family);
+  font-size: 0.9rem;
+}
+.order {
+  color: var(--main-color);
+  background-color: var(--secondary-color);
+  font-weight: var(--font-weight);
+}
+.call {
+  color: var(--white-color);
+  background-color: transparent;
+  font-weight: var(--font-weight);
+  border: 1px solid var(--white-color);
+}
+.coffeeimg img {
+  width: 100%;
+}
+/* about section  */
+.about {
+  width: 100%;
+  height: 100vh;
+  background-color: green;
+}
+/* menu section  */
+.menu {
+  width: 100%;
+  height: 100vh;
+  background-color: pink;
+}
+/* gallery section  */
+.gallery {
+  width: 100%;
+  height: 100vh;
+  background-color: blue;
+}
+/* contact section  */
+.contact {
+  width: 100%;
+  height: 100vh;
+  background-color: orchid;
+}

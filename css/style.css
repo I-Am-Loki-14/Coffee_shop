@@ -8,7 +8,7 @@
 }
 :root {
   --main-color: #980404;
-  --bg-color: #710101;
+  --bg-color: #5a0101;
   --secondary-color: #ff9000;
   --font-family: "Ubuntu", sans-serif;
   --second-font: "Playwrite NO", cursive;
@@ -42,8 +42,9 @@
   color: var(--white-color);
 }
 .navlinks a:hover {
-  background-color: var(--bg-color);
-  color: var(--secondary-color);
+  background-color: var(--secondary-color);
+  color: var(--black-color);
+  transition: 0.3s;
 }
 /* menu bar  */
 .menubar {
@@ -64,7 +65,7 @@
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 .home div {
   flex: 1 1 250px;
@@ -113,13 +114,32 @@
   border: 1px solid var(--white-color);
 }
 .coffeeimg img {
-  width: 100%;
+  width: 90%;
 }
 /* about section  */
 .about {
   width: 100%;
-  height: 100vh;
-  background-color: green;
+  /* height: 100vh; */
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1rem;
+}
+.about div {
+  flex: 1 1 300px;
+}
+.about .about_info {
+  text-align: center;
+  font-family: var(--font-family);
+}
+.about .about_info p {
+  margin: 1rem 0;
+}
+.socials i {
+  margin: 0 0.2rem;
 }
 /* menu section  */
 .menu {

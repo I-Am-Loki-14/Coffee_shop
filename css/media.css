@@ -1,6 +1,8 @@
 @media (max-width: 800px) {
   .nav_container {
-    padding: 0.5rem 0rem;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
   }
   .navlinks {
     display: none;

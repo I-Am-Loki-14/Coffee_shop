@@ -29,7 +29,7 @@
   position: fixed;
   top: 0;
 }
-.nav_container h1 {
+.nav_container h2 {
   font-family: var(--font-family);
   color: var(--white-color);
 }
@@ -44,6 +44,15 @@
 .navlinks a:hover {
   background-color: var(--bg-color);
   color: var(--secondary-color);
+}
+/* menu bar  */
+.menubar {
+  display: none;
+}
+.show {
+  transform: translateY(0%) !important;
+
+  transition: 0.3s;
 }
 /* home section  */
 .home {

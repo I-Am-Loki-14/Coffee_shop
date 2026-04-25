@@ -1,5 +1,31 @@
 @media (max-width: 800px) {
+  .nav_container {
+    padding: 0.5rem 0rem;
+  }
   .navlinks {
     display: none;
+  }
+  .menubar {
+    display: block;
+  }
+}
+@media (max-width: 800px) {
+  .navlinks {
+    padding: 0.5rem;
+    display: block;
+    position: absolute;
+    top: 2.5rem;
+    backdrop-filter: blur(3px);
+    width: 100%;
+    transform: translateY(-150%);
+    /* clip-path: polygon(0 100%, 100% 0, 100% 0, 0 100%); */
+    transition: 0.3s;
+  }
+  .navlinks a {
+    display: flex;
+    margin: 0.2rem 0;
+    padding: 0.5rem;
+    /* background-color: goldenrod; */
+    border: 1px solid gray;
   }
 }

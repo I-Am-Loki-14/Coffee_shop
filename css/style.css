@@ -168,7 +168,7 @@
 .menu-card {
   display: flex;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 1rem;
   flex-wrap: wrap;
   align-items: center;
 }
@@ -176,14 +176,17 @@
   flex: 0 1 400px;
   /* background-color: greenyellow; */
   text-align: center;
-  padding: 1rem;
-  margin: 0rem;
+  overflow: hidden;
 }
 
 .menu-card .card {
   font-family: var(--font-family);
   color: var(--white-color);
   text-align: center;
+}
+.menu-card .card h3 {
+  font-size: 1.3rem;
+  font-weight: var(--font-weight);
 }
 .menu-card .card img {
   transition: all 0.3s;
@@ -193,7 +196,7 @@
   transform: scale(1.1);
 }
 .menu-card .card p {
-  margin: 1rem 0;
+  margin: 0.5rem 0;
 }
 /* gallery section  */
 .gallery {

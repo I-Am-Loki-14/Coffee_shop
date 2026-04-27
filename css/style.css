@@ -18,6 +18,9 @@
   --white-color: #ffffff;
   --black-color: #000000;
 }
+body {
+  position: relative;
+}
 /* nav section  */
 .nav_container {
   width: 100%;
@@ -37,6 +40,10 @@
   color: var(--white-color);
   font-size: 1.5rem;
   font-weight: var(--font-weight);
+  transition: all 0.3s;
+}
+.nav_container h2:hover {
+  color: var(--secondary-color);
 }
 .navlinks a {
   display: inline-block;
@@ -111,12 +118,27 @@
   color: var(--main-color);
   background-color: var(--secondary-color);
   font-weight: var(--font-weight);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.order:hover {
+  background-color: #f99a1d;
+  color: var(--black-color);
+  box-shadow: 1px 1px 5px #f99a1d;
+}
+.call:hover {
+  background-color: #f99a1d;
+  color: var(--black-color);
+  box-shadow: 1px 1px 5px #f99a1d;
+  border-color: #f99a1d;
 }
 .call {
   color: var(--white-color);
   background-color: transparent;
   font-weight: var(--font-weight);
   border: 1px solid var(--white-color);
+  cursor: pointer;
+  transition: all 0.3s;
 }
 .coffeeimg img {
   width: 90%;
@@ -391,4 +413,11 @@
 }
 .footer span a:hover {
   color: var(--secondary-color);
+}
+.uparrow {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  font-size: 2.5rem;
+  z-index: 500;
 }

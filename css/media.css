@@ -17,14 +17,15 @@
     padding: 0.5rem;
     display: block;
     position: absolute;
-    top: 2.7rem;
+    top: 3rem;
     left: 0;
-    background-color: #5a01016f;
+    /* background-color: #5a01016f; */
     backdrop-filter: blur(3px);
     width: 100%;
     transform: translateY(-150%);
     /* clip-path: polygon(0 100%, 100% 0, 100% 0, 0 100%); */
     transition: 0.3s;
+    box-shadow: 1px 1px 5px black;
   }
   .navlinks a {
     display: flex;

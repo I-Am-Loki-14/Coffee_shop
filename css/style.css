@@ -47,6 +47,7 @@ body {
 }
 .navlinks a {
   display: inline-block;
+  font-weight: var(--font-weight);
   font-family: var(--font-family);
   border-radius: 0.2rem;
   padding: 0.5rem 1rem;

@@ -51,7 +51,7 @@ body {
   border-radius: 0.2rem;
   padding: 0.5rem 1rem;
   margin: 0 0.2rem;
-  color: var(--white-color);
+  color: var(--secondary-color);
 }
 .navlinks a:hover {
   background-color: var(--secondary-color);
@@ -61,6 +61,7 @@ body {
 /* menu bar  */
 .menubar {
   display: none;
+  cursor: pointer;
 }
 .show {
   transform: translateY(0%) !important;
